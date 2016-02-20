@@ -22,7 +22,7 @@ print(result)
 let apples = 30
 let oranges = 20
 let appleSummary = "\(apples) tane elma var."
-let fruitSummary = "\(apples + oranges) tane elma var."
+let fruitSummary = "\(apples + oranges) tane meyva var."
 print(appleSummary)
 print (fruitSummary)
 
@@ -86,3 +86,43 @@ if let name = optionalString {
     print("nsc")
 
 }
+
+func hesapla(fiyat: Double, kdv_oran: Double) -> Double {
+    let brut: Double = fiyat + fiyat * kdv_oran
+    return brut
+}
+
+print(hesapla(100, kdv_oran: 0.18))
+
+func avg(nums: Int...) -> Int {
+var sum = 0
+    for num in nums {
+        sum += num
+    }
+    return sum / nums.count
+}
+
+print(avg(5, 66, 3, 7, 80, 3))
+
+var i=0;
+for i=0; i<10; i++ {
+print(i)
+}
+
+
+var b = 0
+while b<10{
+    print(b)
+    b++
+}
+
+var c = 0
+repeat {
+print(c)
+c++
+} while c<10
+
+
+
+
+
