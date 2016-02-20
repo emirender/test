@@ -10,3 +10,5 @@ import Foundation
 
 print("Merhaba")
 
+var myVar = 30.0
+print(myVar)
