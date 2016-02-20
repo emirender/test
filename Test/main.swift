@@ -124,5 +124,17 @@ c++
 
 
 
+class shape {
+    var numOfSides = 0
+    func about() -> String {
+        return "\(numOfSides) tane kenarlı şekil."
+    
+    }
+}
+
+
+
+
+
 
 
