@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("HMerhaba")
+print("Merhaba")
 
